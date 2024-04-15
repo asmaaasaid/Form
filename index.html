@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="shortcut icon" href="images/online-survey.png" type="image/x-icon">
+</head>
+<body bgcolor="Beige">
+    <h1 align="center">Job Application</h1>
+    <form action="" width="500px">
+        <fieldset >
+            <legend >Introduce Your Self</legend>
+            <table >
+                <tbody>
+                 <tr >
+                     <td width="49%"><label for="name">User Name</label></td>
+                     <td ><input type="text" placeholder="Enter your name..." id="name"></td>
+                 </tr>
+                 <tr>
+                     <td><label for="age">Age</label></td>
+                     <td><input type="number" placeholder="Enter your age..." id="age" max="60"></td>
+                 </tr>
+                 <tr>
+                     <td><label for="email">Email Address</label></td>
+                     <td><input type="email" placeholder="Enter email..." id="email"></td>
+                 </tr>
+                 <tr>
+                     <td><label for="pass">Password</label></td>
+                     <td><input type="password" id="pass" placeholder="Enter password..."></td>
+                 </tr>
+                 <tr>
+                     <td><label for="">Gender</label></td>
+                     <td>Female<input type="radio" name="gender" value="female"></td>
+                     <td>Male<input type="radio" name="gender" value="male"></td>
+                 </tr>
+                </tbody>
+             </table>
+        <br>
+        <hr>
+        <br>
+       <table>
+        <tbody>
+            <tr>Education Statuse:</label></tr>
+            <tr>
+                <td><input type="radio" name="education" value="graduate" id="graduated"></td>
+                <td><label for="graduated">Graduate</label></td>
+            </tr>
+            <tr>
+                <td><input type="radio" name="education" value="student" id="student"></td>
+                <td><label for="student">Student</label></td>
+            </tr>
+        </tbody>
+       </table>
+       <br>
+       <label for="">Faculty:</label>
+        <select name="faculty" id="faculty">
+              <option>Choose Your Faculty</option>
+              <option value="Engineering">Engineering</option>
+              <option value="Computer Science">Computer Science</option>
+              <option value="Pharmacy">Pharmacy</option>
+              <option value="Medecine">Medecine</option>
+       </select>
+       <br> <br>
+       <textarea name="review"  cols="100" rows="10" placeholder="Any Comment..."></textarea>
+        <br><br>
+        <table>
+            <tbody>
+                <tr>
+                    <td><input type="submit" value="Submit" ></td>
+                    <td><input type="reset" value="Cancele"></td>
+                </tr>
+            </tbody>
+        </table>
+    </fieldset>
+    </form>
+</body>
+</html>
